@@ -24,7 +24,7 @@ This Python project implements a User Management System using Object-Oriented Pr
    ```
 
 ## UML Diagram
-A UML class diagram representing the system is included in the `uml_diagram.png` file.
+A UML class diagram representing the system is included in the `uml_diagram.txt` file.
 
 ## Sample Input/Output
 **Example Interaction:**
