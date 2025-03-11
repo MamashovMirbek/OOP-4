@@ -1,0 +1,25 @@
+       ┌──────────────────────────────────────────────┐                                                                
+       │UserService                                   │   ┌───────────────────────────────────────────────────────────┐
+       ├──────────────────────────────────────────────┤   │UserUtil                                                   │
+       │- users: dict                                 │   ├───────────────────────────────────────────────────────────┤
+       │+ add_user(user: User)                        │   │+ generate_user_id(): int                                  │
+       │+ find_user(user_id: int): User               │   │+ generate_password(): str                                 │
+       │+ delete_user(user_id: int)                   │   │+ is_strong_password(password: str): bool                  │
+       │+ update_user(user_id: int, user_update: User)│   │+ generate_email(name: str, surname: str, domain: str): str│
+       │+ get_number(): int                           │   │+ validate_email(email: str): bool                         │
+       └──────────────────────────────────────────────┘   └───────────────────────────────────────────────────────────┘
+                               |                                                                                       
+                               |                                                                                       
+┌─────────────────────────────────────────────────────────────┐                                                        
+│User                                                         │                                                        
+├─────────────────────────────────────────────────────────────┤                                                        
+│- user_id: int                                               │                                                        
+│- name: str                                                  │                                                        
+│- surname: str                                               │                                                        
+│- email: str                                                 │                                                        
+│- password: str                                              │                                                        
+│- birthday: datetime.date                                    │                                                        
+│+ __init__(user_id, name, surname, email, password, birthday)│                                                        
+│+ get_details(): str                                         │                                                        
+│+ get_age(): int                                             │                                                        
+└─────────────────────────────────────────────────────────────┘           
