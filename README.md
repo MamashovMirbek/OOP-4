@@ -12,7 +12,7 @@ This Python project implements a User Management System using Object-Oriented Pr
 ## Installation & Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/MamashovMirbek/OOP-4/
+   git clone https://github.com/MamashovMirbek/OOP-4/blob/main/main.py
    ```
 2. Navigate to the project folder:
    ```bash
@@ -20,7 +20,7 @@ This Python project implements a User Management System using Object-Oriented Pr
    ```
 3. Run the script:
    ```bash
-   python user_management_system.py
+   python main.py
    ```
 
 ## UML Diagram
